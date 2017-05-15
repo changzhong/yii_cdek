@@ -1,0 +1,122 @@
+/*头部导航样式开始*/
+.top-nav{
+	background: #F8F8F8;
+	width:100%;
+	font-size: 14px;
+}
+
+.top-nav li{
+	padding: 0 15px;
+	height: 100%;
+}
+
+
+.top-nav .navbar{
+	margin-bottom: 0;
+	border:none;
+}
+
+.top-nav .navbar-brand{
+	height: 100%;
+}
+
+.top-nav .navbar-nav > li > a{
+	line-height: 66px;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 0;
+	background: #F8F8F8;
+}
+.top-nav .navbar-nav > li > a:hover{
+	color:red;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background: #F8F8F8;
+	color:red;
+}
+/*头部导航样式结束*/
+
+/*底部样式开始*/
+.footer{
+    border-top: 8px solid #76B729;
+    background: #000;
+    color:#fff;
+}
+/*底部样式结束*/
+
+
+/*index-index样式开始*/
+    /*轮播图样式开始*/
+    #indexIndex .carousel-div{
+        padding: 0;
+    }
+	#indexIndex .carousel-div img{
+        height: 100%;
+    }
+    /*轮播图样式结束*/
+
+    /*小导航样式开始*/
+	#indexIndex .small-container-fluid{
+        background: #76B729;
+    }
+	#indexIndex .small-container-fluid .small-header{
+        height: 98px;
+    }
+    #indexIndex .small-container-fluid ul li{
+        padding:38px 0;
+    }
+    #indexIndex .small-container-fluid ul li:hover{
+        background: #fff;
+    }
+    #indexIndex .small-container-fluid ul li:hover a{
+        color:#76B729;
+    }
+
+
+    #indexIndex .small-container-fluid a{
+        font-size: 20px;
+        color:#fff;
+        border-right: 1px solid #eee;
+        width:100%;
+        display: block;
+        text-decoration: none;
+    }
+    #indexIndex .small-container-fluid li:last-child a{
+        border:none;
+    }
+    #indexIndex .small-container-fluid li a i{
+	    font-size:24px;
+    }
+
+    /*小导航样式结束*/
+    
+    /*新闻样式开始*/
+    #indexIndex .news-container a{
+        color:#dc1e32;
+    }
+    #indexIndex .news-container .news-title{
+        font-weight:600;
+    }
+    
+    #indexIndex .news-container .news-content{
+        padding-top:20px;
+    }
+    
+    #indexIndex .news-container .news-content>div:first-child{
+        padding-left:0;
+    }
+    #indexIndex .news-container .news-content>div:last-child{
+        padding-right:0;
+    }
+    
+    #indexIndex .news-container .news-content>div{
+        padding:0 5px;
+    }
+    
+    #indexIndex .news-container .news-content .new-title{
+       font-size:18px;
+    }
+    
+    /*新闻样式结束*/
+
+/*index-index样式结束*/
